@@ -239,3 +239,8 @@ Create Java runtime image
 ```
 jlink --module-path mods --add-modules zoo.animal.talks --output zooApp
 ```
+
+Run from the trimmed-down runtime
+```
+zooApp/bin/java --module zoo.animal.talks/zoo.animal.talks.media.Announcement
+```
